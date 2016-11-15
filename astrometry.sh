@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ASTROMETRY_DATA="${ASTROMETRY_DATA:-/home/${HOME}/astrometry-data}"
+ASTROMETRY_DATA="${ASTROMETRY_DATA:-${HOME}/astrometry-data}"
 
 sudo docker run -w /data \
     -v ${PWD}:/data \
