@@ -6,7 +6,7 @@ Be sure [docker](http://docker.com) is setup and configured.
 ## Setup
 Create docker image run `docker build . -t astrometry`
 ## Usage
-Donwload index files from http://astrometry.net/doc/build-index.html.  By default it will assumed that these files are in  `${HOME}/astrometry-data/`.  This can be changed by setting the `ASTROMETRY_DATA` environment variable to the path  of your choosing.
+Download index files from http://astrometry.net/doc/build-index.html.  By default it will assumed that these files are in  `${HOME}/astrometry-data/`.  This can be changed by setting the `ASTROMETRY_DATA` environment variable to the path  of your choosing.
 
 To run [astrometry.net](http://astrometry.net/) applications use the provided `astrometry.sh` to run the application you want.  For example:
 ```
